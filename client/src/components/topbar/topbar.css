@@ -1,0 +1,155 @@
+.topbarContainer{
+    height :60px;
+    width: 100%;
+    background-color: #d4418e;
+background-image: linear-gradient(315deg, #d4418e 0%, #0652c5 74%);
+
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    color: rgb(255, 255, 255) !important;
+    z-index: 5;
+}
+
+.Logo{
+
+    font-size: 24px;
+    margin-left: 20px;
+    font-weight: 300;
+    color: white;
+    cursor: pointer;
+}
+.topbarLeft{
+    flex: 3;
+    display: flex !important;
+}
+.topbarLeft:hover{
+    text-decoration: none;
+}
+.searchbar{
+    width: 100%;
+    height: 30px;
+ background-color: aliceblue;
+ border-radius: 50px;
+ display: flex;
+ align-items: center;
+
+}
+
+.SearchIcon{
+    font-size: 30px !important;
+    margin-left: 10px;
+    color: rgb(0, 0, 112);
+}
+
+.searchInput{
+    border: none;
+    width: 88%;
+}
+
+.searchInput:focus{
+    outline: none;
+}
+.topbarCenter{
+    flex: 5;
+
+}
+
+.topbarRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+.topbarLink{
+    margin-right: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.topbarIcons{
+    display: flex;
+}
+.topbarIconItem{
+margin-right: 15px;
+cursor: pointer;
+position: relative;
+
+}
+
+.topbarIconBadge{
+width: 15px;
+height: 15px;
+border-radius: 50%;
+background-color: red;
+color: white;
+position: absolute;
+top: -5px;
+right: -5px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 12px;
+}
+
+.topbarImg{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.topbarLeftLogo{
+    position: relative;
+}
+
+
+.topbarLeftLogoUp{
+    display: flex;
+    
+}
+
+.topbarLeftLogoDown{
+    margin-top: 2px;
+    display: flex;
+    
+    
+}
+.topbarLeftLogoTop{
+    width: 15px;
+    height: 15px;
+    background-color: #eec0c6;
+background-image: linear-gradient(45deg, #eec0c6 30%, #7ee8fa 50%);
+    margin-left: 24px;
+    transform: skewX(24deg);
+    
+}
+.topbarLeftLogoTop1{
+    width: 15px;
+    height: 15px;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 30%, #7ee8fa 50%);
+        transform: skewX(-24deg);
+    margin-left: 8px;
+}
+
+.topbarLeftLogoBottom{
+    width: 15px;
+    height: 15px;
+    background-color: #eec0c6;
+background-image: linear-gradient(135deg, #eec0c6 34%, #7ee8fa 70%);
+
+    margin-left: 24px;
+    transform: skewX(-24deg);
+}
+
+.topbarLeftLogoBottom1{
+    width: 15px;
+    height: 15px;
+    background-color: #eec0c6;
+background-image: linear-gradient(225deg, #eec0c6 34%, #7ee8fa 70%);
+    transform: skewX(24deg);
+    margin-left: 8px;
+}
